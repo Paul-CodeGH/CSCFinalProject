@@ -215,7 +215,7 @@ class Player {
     this.checkpointElement.style.height = "10px";
     this.checkpointElement.style.backgroundColor = "green";
     this.checkpointElement.style.left = `${this.x + 20}px`;
-    this.checkpointElement.style.top = `${this.y + this.height}px`; // Slightly below player
+    this.checkpointElement.style.top = `${this.y + this.height - 30}px`; // Slightly below player
     this.checkpointElement.style.borderRadius = "50%"; // Optional, makes it a circle
 
     this.parentElement.appendChild(this.checkpointElement);
